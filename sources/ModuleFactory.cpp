@@ -1,5 +1,5 @@
 #include "ModuleFactory.h"
-#include "ResidentialModule.h"   // ИЗМЕНЕНО: было HabitationModule.h
+#include "ResidentialModule.h"   
 #include "Energy.h"
 #include "Research.h"
 

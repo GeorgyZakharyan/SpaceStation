@@ -6,6 +6,7 @@ class ResidentialModule : public Module
 public:
     ResidentialModule(const std::string& name, int durability, int energy, int capacity, int efficiency);
     std::string getCategory() const override;
+    bool needsOxygen() const override;      
 };
 
 class CrewCabin : public ResidentialModule

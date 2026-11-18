@@ -8,6 +8,11 @@ std::string ResidentialModule::getCategory() const
     return "Жилой";
 }
 
+bool ResidentialModule::needsOxygen() const
+{
+    return true;
+}
+
 CrewCabin::CrewCabin(const std::string& name)
     : ResidentialModule(name, 100, 10, 4, 80) {}
 
